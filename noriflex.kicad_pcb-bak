@@ -2,7 +2,7 @@
 
   (general
     (thickness 0.1)
-    (drawings 7)
+    (drawings 8)
     (tracks 38)
     (zones 0)
     (modules 2)
@@ -67,7 +67,7 @@
       (usegerberadvancedattributes false)
       (creategerberjobfile false)
       (excludeedgelayer true)
-      (linewidth 0.010000)
+      (linewidth 0.150000)
       (plotframeref false)
       (viasonmask false)
       (mode 1)
@@ -184,7 +184,10 @@
       (net 8 "Net-(J1-Pad8)"))
   )
 
-  (gr_text "~dgp ~;p" (at 112.2 91.9) (layer F.SilkS)
+  (gr_text ;p (at 115 91.6 270) (layer F.SilkS)
+    (effects (font (size 2 2) (thickness 0.4)))
+  )
+  (gr_text ~dgp (at 110.5 91.75) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text rev0 (at 112.05 94.7) (layer F.Cu)
