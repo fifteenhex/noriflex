@@ -1,0 +1,3 @@
+[submodule "breadbee_kicad"]
+	path = breadbee_kicad
+	url = https://github.com/breadbee/kicad.git

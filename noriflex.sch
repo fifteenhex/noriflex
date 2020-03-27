@@ -1,0 +1,98 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L spinor:spinor U1
+U 1 1 5E7D4814
+P 4500 3500
+F 0 "U1" H 4200 4100 50  0000 C CNN
+F 1 "spinor" H 4200 4000 50  0000 C CNN
+F 2 "noriflex:norsolderdown" H 4500 3500 50  0001 C CNN
+F 3 "" H 4500 3500 50  0001 C CNN
+	1    4500 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x08 J1
+U 1 1 5E7D57C1
+P 6200 3300
+F 0 "J1" H 6280 3292 50  0000 L CNN
+F 1 "Conn_01x08" H 6280 3201 50  0000 L CNN
+F 2 "fpcedge:1mm8p" H 6200 3300 50  0001 C CNN
+F 3 "~" H 6200 3300 50  0001 C CNN
+	1    6200 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3000 4500 2950
+Wire Wire Line
+	4500 2950 5200 2950
+Wire Wire Line
+	5100 3400 5250 3400
+Wire Wire Line
+	5100 3500 5300 3500
+Wire Wire Line
+	6000 3200 5300 3200
+Wire Wire Line
+	5300 3200 5300 3500
+Wire Wire Line
+	6000 3000 5250 3000
+Wire Wire Line
+	5250 3000 5250 3400
+Wire Wire Line
+	5100 3600 6000 3600
+Wire Wire Line
+	6000 3700 5200 3700
+Wire Wire Line
+	5200 2950 5200 3700
+Wire Wire Line
+	4500 4000 4500 4100
+Wire Wire Line
+	4500 4100 5350 4100
+Wire Wire Line
+	5350 4100 5350 3300
+Wire Wire Line
+	5350 3300 6000 3300
+Wire Wire Line
+	3900 3600 3800 3600
+Wire Wire Line
+	3800 3600 3800 4150
+Wire Wire Line
+	3800 4150 5400 4150
+Wire Wire Line
+	5400 4150 5400 3500
+Wire Wire Line
+	5400 3500 6000 3500
+Wire Wire Line
+	3900 3400 3550 3400
+Wire Wire Line
+	3550 3400 3550 4250
+Wire Wire Line
+	3550 4250 5500 4250
+Wire Wire Line
+	5500 4250 5500 3400
+Wire Wire Line
+	5500 3400 6000 3400
+Wire Wire Line
+	3900 3500 3750 3500
+Wire Wire Line
+	3750 3500 3750 4200
+Wire Wire Line
+	3750 4200 5450 4200
+Wire Wire Line
+	5450 4200 5450 3100
+Wire Wire Line
+	5450 3100 6000 3100
+$EndSCHEMATC
