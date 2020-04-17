@@ -2,4 +2,4 @@
 
 ![render](renders/noriflex.png)
 
-![mounted](photos/mounted.png)
+![mounted](photos/mounted.jpg)
